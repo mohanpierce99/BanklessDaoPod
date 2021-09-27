@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face{
+  font-family: ClearSans-b;
+  src: url("./assets/fonts/clear-sans/TTF/ClearSans-Bold.ttf")
 }
+
+@font-face{
+  font-family: ClearSans-m;
+  src: url("./assets/fonts/clear-sans/TTF/ClearSans-Medium.ttf")
+}
+
+@font-face{
+  font-family: ClearSans;
+  src: url("./assets/fonts/clear-sans/TTF/ClearSans-Light.ttf")
+}
+:root {
+  --toastify-color-progress-dark: #fff;
+}
+
+
+body p{
+  font-family: ClearSans;
+  font-size: 16px;
+  color: white;
+}
+
+.bold--32{
+font-family: ClearSans-b;
+font-size:32px;
+}
+
+.bold--16{
+  font-family: ClearSans-b;
+  font-size:16px;
+}
+
+.bold--28{
+  font-family: ClearSans-b;
+  font-size:28px;
+}
+
+.regular--12{
+  font-family: ClearSans;
+  font-size: 12px;
+}
+
+.regular--14{
+  font-family: ClearSans;
+  font-size: 14px;
+}
+
+.regular--16{
+  font-family: ClearSans;
+  font-size: 14px;
+}
+
+

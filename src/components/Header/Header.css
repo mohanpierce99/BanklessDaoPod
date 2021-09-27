@@ -1,0 +1,30 @@
+.header-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 92px;
+    padding-bottom: 48px;
+    text-align: left;
+}
+
+.header-wrapper {
+    background: #101010;
+}
+.noop{
+    
+}
+.glow {
+    border-bottom: 4px solid #ED1C24 !important;
+  }
+  
+  .fade {
+    border-bottom: 4px solid #101010 !important;   
+  }
+  
+.header-title {
+    width: fit-content;
+    color: white;
+    margin-bottom: 24px;
+    transition: border 0.3s ease-in;
+    font-family: ClearSans-b;
+    font-size: 32px;
+}

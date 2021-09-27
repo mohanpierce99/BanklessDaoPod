@@ -1,0 +1,19 @@
+.home__wrapper {
+    min-height: inherit;
+    background: #1A1A1A;
+    position: relative;
+}
+
+.logo{
+position: absolute;
+top:-35px;
+left:100px;
+}
+
+button.manage{
+position: absolute;
+background: #101010;
+color:#ED1C24;
+top:-20px;
+right:0px;
+}
